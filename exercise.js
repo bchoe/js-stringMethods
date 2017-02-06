@@ -1,4 +1,4 @@
-/*String Methods allow you to work with strings.  */  
+/*String Methods allow you to work with strings.  */
 
 /*Let's practice some string methods. Don't forget to console.log your results and run node REPL in the terminal.*/
 
@@ -9,12 +9,18 @@
 
 var longestPlaceName = "Taumatawhakatangihangakoauauotamateaturipukakapiki- maungahoronukupokaiwhenuakitanatahu";  //Yes, this is a real place located in Porangahau, Central Hawke's Bay.
 
+var howManyLetters = longestPlaceName.length;
+
+console.log(howManyLetters);
 
 
 /*Next, concatenate and console.log the following phrase:
 "x is the longest place name in the world and has y letters in its name."
 where x represents the value at `longestPlaceName` and y represents the value at `howManyLetters`*/
 
+var vicsHome = longestPlaceName + " is the longest place name in the world and has " + howManyLetters + " letters in its name.";
+
+console.log(vicsHome);
 
 /*The string.charAt() method returns the character at the specified index (position).*/
 
@@ -22,7 +28,9 @@ where x represents the value at `longestPlaceName` and y represents the value at
 
 var iDidntKnow = "The national animal of Scotland is the Unicorn";
 
+var fifthLetter = iDidntKnow.charAt();
 
+console.log(fifthLetter);
 
 /*The indexOf() method returns the index (position) of the first occurence of a specified text in a string.*/
 
@@ -83,6 +91,6 @@ var drinkMenu = "rum, gin, vodka, kool-aid, haterade";
 
 
 
-       
-       
+
+
 
